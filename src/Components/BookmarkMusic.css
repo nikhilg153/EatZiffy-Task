@@ -1,0 +1,89 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-left: 50px;
+  width: 100%;
+}
+.section__label p {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  color: #605151;
+  margin-bottom: 20px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.item1 {
+  height: 28px;
+  width: 40px;
+  border: 2px solid rgba(254, 186, 136, 0.6);
+  border-radius: 11px;
+  color: #feba88;
+  padding-left: 12px;
+}
+
+.item2 {
+  color: #f8f8f8;
+  background: rgba(254, 186, 136, 0.6);
+  border-radius: 32.5px;
+  width: 71px;
+  height: 28px;
+  padding-left: 20px;
+}
+.item3 {
+  color: #f8f8f8;
+  background: #ff903f;
+  border-radius: 32.5px;
+  width: 65px;
+  height: 28px;
+  padding-left: 20px;
+}
+.item4 {
+  color: #f8f8f8;
+  background: rgba(254, 186, 136, 0.6);
+  border-radius: 32.5px;
+  width: 70px;
+  height: 28px;
+  padding-left: 20px;
+}
+.item5 {
+  color: #f8f8f8;
+  background: rgba(254, 186, 136, 0.6);
+  border-radius: 32.5px;
+  width: 80px;
+  height: 28px;
+  padding-left: 12px;
+}
+
+.section__bookmarks {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  color: #ff903f;
+  font-weight: lighter;
+}
+
+.section__bookmarks h1 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  color: #605151;
+}
+
+.section__bookmarks p {
+  margin-right: 20px;
+}
+
+.section__bookmarks .MuiSvgIcon-root {
+  font-size: 30px;
+}
+.arrows {
+  display: flex;
+}

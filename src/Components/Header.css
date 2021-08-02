@@ -1,0 +1,73 @@
+.header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  background-color: #ff903f;
+  border-bottom-left-radius: 71px;
+  border-bottom-right-radius: 71px;
+  color: white;
+}
+
+.header__icons {
+  margin: 10px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.header__text {
+  font-size: 35px;
+}
+
+.header h1 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+.header__searchbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background: rgba(254, 219, 194, 0.56);
+  height: 55px;
+  width: 750px;
+  margin: auto;
+  border: none;
+}
+.MuiSvgIcon-root {
+  margin-left: 15px;
+}
+.header__searchbox input {
+  border: none;
+  color: white;
+  background: rgba(254, 219, 194, 0.56);
+  width: 360px;
+  outline: none;
+  padding: 10px;
+  background: transparent;
+  font-size: 18px;
+  margin: auto;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 780px) {
+  .header__searchbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background: rgba(254, 219, 194, 0.56);
+    height: 55px;
+    width: 500px;
+    margin: auto;
+    border: none;
+  }
+}
